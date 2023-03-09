@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV David Bates</title>
+    <script src="https://kit.fontawesome.com/289c3ba524.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nombre">David Bates</div>
+        <ul class="nav-bar">
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><button id="modo-oscuro-btn" type="button">Modo oscuro</button></li>               
+        </ul>
+    </nav>
+        <div class="inicio">
+            <div class="foto">
+                <img src="/foto/54.jpg" alt="Foto de David Bates">
+                </div>
+            <div class="personal-info">
+            <h2>¡Hola! Soy David Bates</h2>
+            <p>Soy un desarrollador front-end apasionado por la tecnología. Me encanta programar y crear soluciones 
+               innovadoras que mejoren la vida de las personas. Siempre estoy buscando nuevos desafíos y oportunidades para 
+               crecer como profesional.</p>
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i> david.bates@example.com</li>
+                <li><i class="fa-solid fa-cake-candles"></i> 1/4/1973</li>
+                <li><i class="fa-solid fa-house"></i> 6381 Mcgowen St</li>
+                <li><i class="fa-solid fa-phone"></i> (956) 860-0310</li>
+                <li><i class="fa-solid fa-location-dot"></i> Billings</li>
+                <li><i class="fa-brands fa-linkedin"></i> David.Bates</li>
+                <li><i class="fa-brands fa-paypal"></i> 123.458.741</li>
+            </ul>
+            </div>
+        </div> 
+        <section id="educacion">
+            <h2>Educación</h2>
+            <h3>Tecnicatura en computación</h3>
+            <p>Graduado de la escuela secundaria de Mendoza - 2010</p>
+            <h3>Ingeniería de software </h3>
+            <p>Graduado de la Universidad de Mendoza - Mayo 2016</p>
+            <h3><ul>Cursos:</h3>
+                <li>Programacion fron-end - Udemy - 2018</li>
+                <li>Javascript - Platzi - 2019</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Lenguajes de programación: Python, Java, C++, HTML, CSS</li>
+                <li>Frameworks: React, Angular, Vue.js, Bootstrap</li>
+                <li>Analisis de datos: Pandas, Matplotlib, Tableau</li>
+                <li>Control de versiones: Git, GitHub</li>
+                <li>Base de datos: SQL, MongoDB</li>
+            </ul>
+        </section>
+        
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <h3>Desarrollador web en Mercadolibre (2019-2021)</h3>
+            <p>Me enfoqué en la creación y mantenimiento del sitio web de la empresa, así como en la optimización del proceso de compra en línea.</p>
+            <h3>Diseñador Web para e-commerce (Enero 2021 - Marzo 2022)</h3>
+            <p>Me enfoqué en el diseño visual de su sitio web y aplicacion web. Trabajé en la creación de la interfaz de usuario, diseño gráfico, tipografía y experiencia de usuario.</p>
+            <h3>Desarrollador Front-End para consultora (Marzo 2022 - Diciembre 2022)</h3>
+            <p>Me enfoqué en el desarrollo de la interfaz de usuario y la experiencia del usuario en sitios web y aplicaciones web de clientes.</p>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />      
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>     
+              <button type="submit">Enviar</button>
+            </form>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i> David Bates</li>
+                <li><i class="fa-brands fa-instagram"></i> David.Bates24</li>
+                <li><i class="fa-brands fa-github"></i>DavidBates24</li>
+                <li><i class="fa-brands fa-twitter"></i> DavidBates42</li>
+            </ul>
+        </section>
+</body>
+<script src="JS/main.js"></script>
+</html>
